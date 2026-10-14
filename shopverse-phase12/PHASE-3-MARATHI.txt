@@ -1,0 +1,24 @@
+SHOPVERSE — PHASE 3: CUSTOMER AUTH + ADMIN LOGIN
+
+चालवण्याची पद्धत (Linux):
+1. Terminal मध्ये shopverse फोल्डर उघडा.
+2. python3 -m http.server 8000
+3. http://localhost:8000 उघडा.
+
+Customer Signup: http://localhost:8000/signup.html
+Customer Login: http://localhost:8000/login.html
+Admin Login: http://localhost:8000/admin/login.html
+
+DEMO ADMIN CREDENTIALS
+Email: admin@shopverse.demo
+Password: ShopVerse@123
+
+काय समाविष्ट आहे?
+- Customer signup, login, logout आणि account page
+- Password browser मध्ये plain text स्वरूपात न ठेवता SHA-256 hash + salt स्वरूपात साठवण्याचा शैक्षणिक नमुना
+- वेगळे Admin Login आणि dashboard
+- Admin dashboard मध्ये JSON मधील product/category counts
+- Login session साठी localStorage/sessionStorage
+
+महत्त्वाची सुरक्षा मर्यादा:
+हा front-end learning demo आहे. ग्राहकांचे खाते फक्त त्या browser/device मध्ये राहते. Admin credentials JavaScript मध्ये दिसू शकतात आणि client-side checks बदलता येतात. त्यामुळे खऱ्या वेबसाइटसाठी याचा वापर करू नका. Production साठी backend, server-side authentication, database, hashed passwords (Argon2/bcrypt), secure session cookies आणि role-based authorization आवश्यक आहेत.

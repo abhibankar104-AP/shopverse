@@ -1,0 +1,23 @@
+SHOPVERSE — PHASE 6: FINAL POLISH & DEPLOYMENT
+
+या टप्प्यात:
+- मोबाईल/टॅबलेट स्क्रीनसाठी CSS सुधारणा
+- Keyboard वापरणाऱ्यांसाठी स्पष्ट focus outline
+- कमी हालचाल पसंत करणाऱ्यांसाठी reduced-motion समर्थन
+- पृष्ठांचा theme-color metadata
+- README आणि GitHub Pages deployment सूचना
+- प्रकल्पाच्या मर्यादा व सुरक्षिततेबाबत सूचना
+
+स्थानिक पातळीवर चालवणे:
+1. या फोल्डरमध्ये Terminal उघडा.
+2. python3 -m http.server 8000 चालवा.
+3. http://localhost:8000 उघडा.
+
+GitHub Pages वर प्रकाशित करणे:
+1. GitHub वर नवीन repository तयार करा.
+2. ZIP मधील shopverse फोल्डरच्या आतील सर्व फाइल्स repository च्या root मध्ये upload करा.
+3. Settings → Pages उघडा.
+4. Deploy from a branch निवडा; branch main आणि folder /(root) निवडा.
+5. Save करा आणि Pages ने दिलेला URL उघडा.
+
+महत्त्वाचे: ही HTML/CSS/JS demo website आहे. Browser localStorage किंवा JavaScript मधील admin login सुरक्षित नसतात. प्रत्यक्ष वापरासाठी backend, database, server-side authorization आणि payment provider आवश्यक आहे.

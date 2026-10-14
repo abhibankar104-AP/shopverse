@@ -1,0 +1,18 @@
+SHOPVERSE — PHASE 9
+
+या आवृत्तीत:
+1. प्रत्येक श्रेणीसाठी स्वतंत्र HTML पान: categories/fashion.html, electronics.html, home-kitchen.html, beauty.html, sports.html, books.html
+2. Homepage वर प्रत्येक श्रेणीसाठी स्वतंत्र carousel; एका वेळी चार cards (मोबाइलवर screen width नुसार), पुढे-मागे बटणे आणि View all लिंक.
+3. Navbar मध्ये category links आणि मोबाइलसाठी hamburger menu.
+4. विद्यमान उत्पादने, cart, wishlist आणि इतर पानांचा कोड शक्य तितका कायम ठेवला आहे.
+
+OTP आणि SMS बाबत महत्त्वाचे:
+प्रत्यक्ष SMS OTP किंवा ऑर्डर SMS पाठवणे या static HTML/CSS/JS आवृत्तीत सुरू केलेले नाही. त्यासाठी SMS provider account, API keys सुरक्षित ठेवणारा server-side endpoint, OTP expiry/rate limits आणि भारतात लागू असलेल्या sender/header/template/DLT प्रक्रियेची गरज लागू शकते. API key थेट browser JavaScript मध्ये ठेवू नका. TRAI मार्गदर्शन: https://www.trai.gov.in/advice-to-senders
+
+सध्या वापर:
+1. ZIP extract करा.
+2. terminal मध्ये project folder उघडा.
+3. python3 -m http.server 8000
+4. http://localhost:8000 उघडा.
+
+ही शिकण्यासाठीची frontend demo आहे; production payments/authentication साठी सुरक्षित server आवश्यक आहे.

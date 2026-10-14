@@ -1,0 +1,9 @@
+# ShopVerse Phase 12 — Portfolio Footer
+
+- Added a portfolio attribution to every storefront footer: “This website is created and designed by Mr. Abhishek Shankar Bankar. If you want to explore more of his work, visit his portfolio.”
+- Added a premium portfolio button with briefcase and external-link icons.
+- Portfolio URL: https://portfoliofabhishek.netlify.app/
+- Opens in a new tab with `rel="noopener noreferrer"`.
+- Added responsive styling to `css/style.css`; existing ShopVerse functionality was left unchanged.
+
+This remains a static frontend learning project.
